@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Conta</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo">Fale Conosco</h1>
+        
+        <fieldset class="grupo">
+            <div>
+                <p id="subtitulo">Dados pessoais</p>
+            </div>
+            
+            <form action="#" method="post">
+                <div id="campo">
+                    <label for="nome_completo"><strong>Nome Completo</strong></label>
+                    <input type="text" name="nome_completo" id="nome_completo" required>
+                </div>
+                
+                <div id="campo">
+                    <label for="telefone"><strong>Telefone</strong></label>
+                    <input type="text" name="telefone" id="telefone" required>
+                </div>
+
+                <div id="campo">
+                    <label for="tecnologia_que_Trabalha"><strong>Tecnologia que Trabalha</strong></label>
+                    <input type="text" name="tecnologia_que_trabalha" id="tecnologia_que_trabalha" required>
+                </div>
+                
+                <div id="campo">
+                    <label for="duvida"><strong>Duvidas</strong></label>
+                    <textarea name="duvida" id="duvida" rows="8" style="width: 40em;"></textarea>
+                </div>
+                
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+        </fieldset>
+    </div>
+    <br><br>
+    <a href="index.html"><button type="submit" class="botao">Voltar ao menu</button></a>
+</body>
+</html>
